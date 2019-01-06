@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>javascript大作业</title>
+    <style>
+    	ul,ol,li{
+			list-style: none;
+		}
+		ul,li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.cover1 img{
+			float:left;
+			margin-top:8px;
+			margin-left:18px;
+		}
+		.zhuce{
+			font-size:12px;
+			color:#9a9791;
+			float:left;
+			margin-top:7px;
+			margin-left:20px;
+		}
+		.dingdan{
+			font-size:12px;
+			color:#9a9791;
+			float:left;
+			margin-top:8px;
+		}
+		.cover2{
+			width:1200px;
+			height:80px;
+			float:left;
+		}
+		.cover3 li{
+			height:25px;
+    		line-height:25px;
+    		text-align:center;
+    		padding:0 8.8px;
+    		float:left;
+    		font-size:12px;
+    		border-right:1px solid #ebe7e7;
+		}
+		.qb{
+			float:left;
+			margin-left:54px;
+			margin-top:10px;
+			color:#000000;
+		}
+		.qwe{
+			font-size:13px;
+			color:#000;
+			margin-top:15px;
+			float:left;
+			margin-left:8px;
+		}
+		.bang{
+			float:left;
+			margin-top:18px;
+			margin-left:5px;
+		}
+		.ban{
+			font-size:13px;
+			color:#d49f68;
+			float:left;
+			margin-left:6px;
+			margin-top:22px;
+		}
+		.slide{
+			width: 800px;
+			overflow: hidden;
+			float: left;
+		}
+		.header4>button{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;
+			cursor: pointer;
+			color: #fff;
+			top: 175px;
+			line-height: 50px;
+			background: rgb(255,0,0);
+			font-size: 30px;
+			position: absolute;
+			border-color: red;
+			opacity: 0;
+		}
+		.nav>li{
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: #ccc;
+			cursor: pointer;
+			margin: 0 5px;
+			line-height: 20px;
+			text-align: center;
+			border-radius: 50%;
+		}
+		.header4_2 img{
+			float:left;
+		}
+		ul li,ol li{
+			list-style: none;
+			font-size: 15px;
+		}
+		.rg ul li{
+			margin-top: 8px;
+			margin-left: -20px;
+			color: #ff4d04;
+			font-size: 14px;
+		}
+		.happy1_2{
+			width:65px;
+			height:180px;
+			float:left;
+			margin-left:65px;
+		}
+		.happy1_2 p{
+			float:left;
+			margin-top:25px;
+		}
+		.happy1_2 a{
+			font-size:13px;
+			color:#666560;
+			float:left;
+			margin-top:12px;
+		}
+		.have1_1 li{
+			line-height:20px;
+    		text-align:center;
+    		padding:0 13px;
+    		float:left;
+    		font-size:12px;
+    		border-right:1px solid #ebe7e7;
+		}
+		.fix li{
+			width: 35px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			margin-bottom: 5px;
+			background-color: #ccc;
+		}
+		.div{
+			width: 1200px;
+			height: 600px;
+			margin: 20px auto;
+			background-color: #ddd;
+			font-size: 50px;
+			text-align: center;
+			line-height: 400px;
+		}
+    </style>
+</head>
+<body>
+	<div class="cover_" style="width: 1350px;height: 130px;margin: 0 auto;">
+		<div class ="cover" style="width:1200px;height:130px;background-color: #ffffff;margin-left: 75px;float: left;z-index: 12;">
+			<div class="cover1" style="width:1200px;height:25px;">
+				<p style="font-size:13px;color:#9a9791;float:left;margin-top:7px;">帮5买，享帮帮</p>
+				<a class="top_QQ" style="width:19px;height:19px;background:url(img/common_min.png) 0 -31px;float:left;margin-left:378px;margin-top:5px;" href="#"></a>
+				<a class="top_weixin" style="width:19px;height:19px;background:url(img/common_min.png) 0 -53px;float:left;margin-left:20px;margin-top:5px;" href="#"></a>
+				<a class="top_weibo" style="width:19px;height:19px;background:url(img/common_min.png) 0 -75px;float:left;margin-left:20px;margin-top:5px;" href="#"></a>
+				<a class="denglu" style="font-size:12px;color:#9a9791;float:left;margin-top:7px;margin-left:20px;" href="#">登录</a>
+				<a class="zhuce" href="#">注册</a>
+				<a class="top_eamil" style="width:19px;height:19px;background:url(img/common_min.png) 0 -117px;float:left;margin-top:10px;margin-left:18px;" href="#"></a>
+				<a class="xiaoxi" style="font-size:12px;color:#9a9791;float:left;margin-top:7px;" href="#">消息</a>
+				<img src="img/dingdan.jpg">
+				<a class="dingdan" href="#">我的订单</a>
+				<a class="zhuce" href="#">我的收藏</a>
+				<a class="zhuce" href="#">帮钻兑换</a>
+				<img src="img/phone.png">
+				<a class="dingdan" href="#">手机版</a>
+				<a class="zhuce" href="#">帮5淘</a>
+				<a class="zhuce" href="#">客户服务</a>
+				<img src="img/gouwuche.jpg">
+				<a class="dingdan" href="#">购物车</a>
+				<a class="zero" style="font-size:12px;color:#fe6c00;float:left;margin-top:8px;margin-left:8px;" href="#">0</a>
+			</div>
+			<div class="cover2">
+				<img class="aa" style="float:left;margin-top:15px;" src="img/logo_03.jpg">
+				<input class="inp" style="width:500px;height:36px;color:#fe6c00;float:left;margin-top:25px;margin-left:100px;border:2px solid #fe6c00;" type="text" placeholder="输入商品或网络关键词，直播全网，快速帮5购！">
+				<div class="cover2_1" style="width:82px;height:40px;float:left;background:#fe6c00;margin-top:25px;margin-right:90px;">
+					<a class="quanwang" style="font-size:16px;color:#ffffd2;padding-top:9px;padding-left:17px;float:left;" href="#">搜全网</a>
+				</div>
+				<div class="cover2_2" style="width:86px;height:40px;border:1px solid #9997ac;float:left;margin-top:25px;">
+					<a class="top_erji" style="width:19px;height:19px;background:url(img/common_min.png) 0 -98px;float:left;margin-left:30px;margin-top:6px;" href="#"></a>
+					<a class="zhu" style="font-size:12px;color:#9ba4bf;float:left;padding-top:0px;padding-left:2px;" href="#">400-085-0505</a>
+				</div>
+				<div class="cover2_2" style="width:86px;height:40px;border:1px solid #9997ac;float:left;margin-top:25px;">
+					<a class="top_erji" style="width:19px;height:19px;background:url(img/common_min.png) 0 -117px;float:left;margin-left:30px;margin-top:6px;" href="#"></a>
+					<a class="zhu" style="font-size:12px;color:#9ba4bf;float:left;padding-top:0px;padding-left:2px;" href="#">mc@b5m.com</a>
+				</div>
+				<div class="cover2_3" style="width:86px;height:42px;float:left;margin-top:25px;background:#ff4d04;">
+					<img src="img/wenhao.jpg" style="float:left;padding-top:16px;padding-left:4px;">
+					<a class="wenti" style="font-size:14px;color:#ffffff;float:left;padding-top:12px;" href="#">常见问题</a>
+				</div>
+			</div>
+			
+			<div class="cover3" style="width:1200px;height:25px;float:left;margin-top: -28px;margin-left: -40px;">
+				<ul class="clear" style="margin-left:235px;">
+					<li><span style="color:#ff0000;">洗发护肤</span></li>
+					<li><span style="color:#ff0000;">日本纸尿裤</span></li>
+					<li>身体乳</li>
+					<li>内衣文胸</li>
+					<li><span style="color:#aca9d3;">iphone6s</span></li>
+					<li><span style="color:#aca9d3;">ipad Air2</span></li>
+					<li>牛仔裤</li>
+					<li>奶粉</li>
+					<li>防晒霜</li>
+					<li>伞</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="banner" style="height:40px;width:1200px;margin:0 auto;">
+		<div class="banner1" style="width:170px;height:39.5px;background:#ff4d04;float:left;">
+			<a class="q" style="float:left;margin-top:8px;margin-left:35px;color:#fff;" href="#">全部商品分类</a>
+		</div>
+		<a class="qb" href="#">帮5赚</a>
+		<a class="qb" href="#">帮韩品</a>
+		<a class="qb" href="#">超划算</a>
+		<a class="qb" href="#">品牌货栈</a>
+		<a class="qb" href="#">韩国馆</a>
+		<a class="qb" href="#">帮社区</a>
+		<a class="qb" href="#">1元兑奖</a>
+		<img src="img/hot.gif">
+	</div>
+	<div style="width:100%;border-bottom:2px solid #fe6c00;"></div>
+	<div class="header" style="width:100%;height:550px;background:#f8f7f6;">
+		<div class="header1" style="width:1200px;height:550px;background:#fff;margin:0 auto;">
+			<div class="header1_1" style="width:170px;height:550px;float:left;">
+				<div class="header2" style="width:25px;height:425px;background:#4c4c4a;float:left;border-bottom:1px solid #fe6c00;">
+					<p><span style="color:#af4c4a;margin-top:25px;margin-left:4px;">当前搜索电商</span></p>
+					<p><span style="color:#af4c4a;margin-top:25px;margin-left:4px;">全网</span><p>
+				</div>
+				<div class="header3" style="width:145px;height:425px;float:left;border-bottom:1px solid #fe6c00;">
+					<a class="qwe" href="#">手机</a>
+					<a class="qwe" href="#">数码</a>
+					<a class="qwe" href="#">影音</a>
+					<a class="qwe" href="#">配件</a>
+					<a class="qwe" href="#">电脑</a>
+					<a class="qwe" href="#">网络</a>
+					<a class="qwe" href="#">办公</a>
+					<a class="qwe" href="#">打印</a>
+					<a class="qwe" href="#">家电</a>
+					<a class="qwe" href="#">厨卫</a>
+					<a class="qwe" href="#">生活</a>
+					<a class="qwe" href="#">个户</a>
+					<a class="qwe" href="#">园艺</a>
+					<a class="qwe" href="#">家具</a>
+					<a class="qwe" href="#">家纺</a>
+					<a class="qwe" href="#">家饰</a>
+					<a class="qwe" href="#">彩妆</a>
+					<a class="qwe" href="#">面部</a>
+					<a class="qwe" href="#">身体</a>
+        			<a class="qwe" href="#">香水</a>
+					<a class="qwe" href="#">男装</a>
+					<a class="qwe" href="#">女装</a>
+					<a class="qwe" href="#">内衣</a>
+					<a class="qwe" href="#">其他</a>
+					<a class="qwe" href="#">女包</a>
+					<a class="qwe" href="#">男包</a>
+					<a class="qwe" href="#">女鞋</a>
+					<a class="qwe" href="#">男鞋</a>
+					<a class="qwe" href="#">运动</a>
+					<a class="qwe" href="#">户外</a>
+					<a class="qwe" href="#">装备</a>
+					<a class="qwe" href="#">服饰</a>
+					<a class="qwe" href="#">儿童</a>
+					<a class="qwe" href="#">婴儿</a>
+					<a class="qwe" href="#">食品</a>
+					<a class="qwe" href="#">玩具</a>
+					<a class="qwe" href="#">乐器</a>
+					<a class="qwe" href="#">家宠</a>
+					<a class="qwe" href="#">收藏</a>
+					<a class="qwe" href="#">鲜花</a>
+					<a class="qwe" href="#">保健</a>
+					<a class="qwe" href="#">理疗</a>
+					<a class="qwe" href="#">药品</a>
+					<a class="qwe" href="#">眼睛</a>
+					<a class="qwe" href="#">果蔬</a>
+					<a class="qwe" href="#">礼品</a>
+					<a class="qwe" href="#">粮油</a>
+					<a class="qwe" href="#">特产</a>
+					<a class="qwe" href="#">文艺</a>
+					<a class="qwe" href="#">生活</a>
+					<a class="qwe" href="#">科技</a>
+					<a class="qwe" href="#">教育</a>
+				</div>
+				<div class="header3_1" style="width:170px;height:125px;float:left;">
+					<div class="h1" style="width:170px;height:35px;float:left;">
+						<img class="sm" src="img/dd_03.jpg" style="float:left;margin-top:15px;margin-left:5px;">
+						<a class="ms" href="#" style="float:left;margin-top:18px;margin-left:8px;font-size:13px;color:#d49f68;">什么是帮5购</a>
+					</div>
+					<div class="h2" style="width:170px;height:45px;float:left;">
+						<img  class="bang" src="img/dd_06.jpg">
+						<a class="ban" href="#">帮5购提供什么服务</a>
+					</div>
+					<div class="h3" style="width:170px;height:45px;float:left;">
+						<img class="bang" src="img/dd_08.jpg">
+						<a class="ban" href="#">如何开通帮5购服务</a> 
+					</div>
+				</div>
+			</div>
+			<div class="header4_1" style="width:800px;height:550px;float:left;">
+				<div class="header4" id="header4" style="width: 800px;height: 366px;float: left;position: relative;overflow: hidden;">
+					<div class="slider" id="slider" style="width: 6400px;position: absolute;left: -800px;">
+						<div class="slide"><img src="img/bann6.png"  height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann1.jpeg" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann2.jpeg" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann3.jpeg" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann4.jpeg" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann5.jpeg" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann6.png" height="366" width="800" alt=""></div>
+						<div class="slide"><img src="img/bann1.jpeg" height="366" width="800" alt=""></div>
+					</div>
+					<button id="left" style="left: 30px;"> < </button>
+					<button id="right" style="right: 30px;"> > </button>
+					<ul class="nav" id="nav" style="position: absolute;left: 329px;bottom: 20px;">
+						<li class="active" style="background: red;">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+					</ul>
+				</div>
+				<div class="header4_2" style="border-top:1px solid #fe6c00;border-right:1.5px solid #fe6c00;width:801px;height:185px;float:left;">
+					<img src="img/1.jpg" alt="">
+					<img src="img/2.jpg" alt="">
+					<img src="img/3.png" alt="">
+					<a href=""><img src="img/qqq.png" alt=""></a>
+				</div>
+			</div>
+			<div class="header5" style="height:550px;width:227px;float:left;">
+				<div class="header5_1" style="height:45px;width:227px;float:left;border-bottom:1px solid #ebeae7;">
+					<img class="lb" src="img/ico-notice.png" alt="" style="float:left;margin-top:14px;margin-left:20px;">
+					<a herf="#" style="float:left;margin-top:12px;margin-left:10px;font-size:14px;color:#fe6c00;">帮帮快讯</a>
+					<img class="jt" src="img/jiantou.jpg" alt="" style="float:left;margin-left:75px;margin-top:18px;">
+				</div>
+				<div id="long" class="rg" style="height: 320px;width: 211px;overflow: hidden;float: left;">
+					<ul id="zyl">
+						<li>【公告】帮购及vip服务调整1</li>
+						<li>【公告】帮购及vip服务调整2</li>
+						<li>【公告】帮购及vip服务调整3</li>
+						<li>【公告】帮购及vip服务调整4</li>
+						<li>【公告】帮购及vip服务调整5</li>
+						<li>【公告】帮购及vip服务调整6</li>
+						<li>【公告】帮购及vip服务调整7</li>
+						<li>【公告】帮购及vip服务调整8</li>
+						<li>【公告】帮购及vip服务调整9</li>
+						<li>【公告】帮购及vip服务调整10</li>
+						<li>【公告】帮购及vip服务调整11</li>
+						<li>【公告】帮购及vip服务调整12</li>
+						<li>【公告】帮购及vip服务调整13</li>
+
+					</ul>
+					<ul id="xs"></ul>
+				</div>
+				<div class="header6_2" style="width: 210px;height: 182px;float: left;">
+					<div class="header6_2_" style="width: 8px;height: 14px;float: left;margin-top: 7px;margin-left: 16px;background: url(img/tp-my-phone.png);"></div>
+					<div class="j1" style="width: 50px;height: 24px;float: left;font-size: 12px;color: #000000;margin-left: 11px;margin-top: 6px;">话费充值</div>
+					<div class="j2" style="width: 110px;height: 24px;float: left;font-size: 12px;color: #ff4d04;margin-top: 6px;">（可使用超级帮钻）</div>
+					<input type="text" value="请输入手机号" class="j3" style="width: 122px;height: 22px;float: left;margin-left: 16px;border: 1px solid #aca7a2;color: #74736d;">
+					
+
+					<select name="hf" class="j4" id="s1" style="float:left;margin-top:14px;margin-left:23px;font-size:13px;width: 61px;height: 18px;border: 1px solid #aca7a2;">
+					</select>
+					<div class="j5" style="width: 11px;height: 18px;float: left;font-size: 12px;color: #ff4d04;margin-top: 15px;margin-left: 7px;line-height: 18px;">¥</div>
+					<div class="j6" id="inzhi" style="width: 20px;height: 18px;float: left;margin-top: 3px;font-size: 12px;color: #ff4d04;line-height: 18px;"></div>
+
+					
+					<button class="j7" style="width: 177px;height: 25px;float: left;margin-left: 16px;margin-top: 6px;background-color: #ff4d04;line-height: 25px;border-color: #ff4d04;color: #ffffff;border-radius: 3px;text-align: center;">充值</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="happy" style="width:100%;height:180px;background:#f8f7f6;">
+		<div class="happy1" style="width:1200px;height:180px;margin:0 auto;border-bottom:1px solid #ebeae8;">
+			<div class="happy1_1" style="width:170px;height:180px;float:left;">
+				<img class="kf" src="img/loginB.jpg" alt="">
+			</div>
+			<div class="happy1_2">
+				<p>购物指南</p>
+				<a herf="#">如何下单</a>
+				<a herf="#">帮5购流程</a>
+				<a herf="#">订单查询</a>
+				<a herf="#">物流配送</a>
+			</div>
+			<div class="happy1_2">
+				<p>支付相关</p>
+				<a herf="#">支付方式</a>
+				<a herf="#">安全设置</a>
+				<a herf="#">账户信息</a>
+			</div>
+			<div class="happy1_2">
+				<p>售后服务</p>
+				<a herf="#">取消订单</a>
+				<a herf="#">申请售后</a>
+				<a herf="#">退货流程</a>
+				<a herf="#">退款相关</a>
+			</div>
+			<div class="happy1_2">
+				<p>VIP服务</p>
+				<a herf="#">VIP优惠</a>
+				<a herf="#">成为VIP</a>
+				<a herf="#">成为帮钻</a>
+			</div>
+			<div class="happy1_2">
+				<p>帮韩品</p>
+				<a herf="#">韩国正品</a>
+				<a herf="#">闪电发货</a>
+				<a herf="#">帮韩品售后</a>
+			</div>
+			<div class="happy1_2">
+				<p>更多</p>
+				<a herf="#">手机APP</a>
+				<a herf="#">帮5采APP</a>
+				<a herf="#">帮5淘插件</a>
+				<a herf="#">其他</a>
+			</div>
+			<img  class="erwei" src="img/erweima.jpg" alt="" style="float:left;margin-left:60px;margin-top:25px;">
+		</div>
+		
+	</div>
+	<div class="have" style="width:100%;height:30px;background:#f8f7f6;">
+		<div class="have1" style="width:1200px;height:30px;margin:0 auto;">
+			<div class="have1_1" style="width:700px;float:left;height:30px;margin-left:210px;margin-top:10px;margin-bottom: 10px;">
+				<ul class="clear">
+					<li>关于帮5买</li>
+					<li>联系我们</li>
+					<li>合作商家</li>
+					<li>友情链接</li>
+					<li>加入我们</li>
+					<li>移动应用</li>
+					<li>热门</li>
+					<li>广告联盟</li>
+					<li>使用条款</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<div class="like" style="width:100%;height:130px;background:#f8f7f6;">
+		<div class="like1" style="width:1200px;height:140px;margin:0 auto;">
+			<a class="right" herf="#" style="font-size:12px;color:#9a9791;float:left;margin-left:350px;margin-top:2px;">Copyright c 2011-2015 B5M.COM.All rights reserved. Powered by B5Msoft Co.Ltd.</a>
+			<a class="right1" herf="#" style="font-size:12px;color:#9a9791;float:left;margin-left:65px;margin-top:10px;">增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书(沪) -非经营性-2013-0034 沪卫(中医)网审[2015]10032号-3|食品流通许可证:</a>
+			<a class="right2" herf="#" style="font-size:12px;color:#9a9791;float:left;margin-top:10px;margin-left:533px;">SP3101151410301755</a>
+			<div class="like2" style="width:777px;height:56px;float:left;margin-left:220px;">
+				<img src="img/bo1.gif" alt="">
+				<img src="img/bo2.png" alt="">
+				<img src="img/bo3.gif" alt="">
+				<img src="img/bo4.png" alt="">
+				<img src="img/bo5.png" alt="">
+				<img src="img/bo6.png" alt="">
+				<img src="img/bo7.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<ul class="fix" style="position: fixed;right: 10px;top: 15%;">
+		<li id="d1" style="position: relative;left:-20px;"><img src="img/consult-s.png" height="60" width="130" alt=""></li>
+		<li id="d2" style="position: relative;left: -20px;top:25px;"><img src="img/xiaobang.png" height="45" width="130" alt=""></li>
+		<li id="d3" style="position: relative;left: -20px;top:30px;">
+            <div class="abc" style="height: 140px;width: 130px;background: #ff9260;">
+                <img src="img/youhui.png" height="140" width="60" alt="">
+            </div>      
+        </li>
+		<li id="d4" style="position: relative;left: -20px;top:100px;"><img src="img/app.png" height="50" width="130" alt=""></li>
+		<li id="d5" style="position: relative;left: -20px;top:130px;">
+			<div class="acb" style="height: 90px;width: 130px;background: #ff9260;">
+				<img src="img/serwei.png" height="24" width="24" alt="" style="margin-top: 66px;margin-left: 12px;">
+			</div>
+		</li>
+		<li id="d6" style="position: relative;left: -20px;top:150px;"><img src="img/cart.png" height="140" width="130" alt=""></li>
+	</ul>
+    <div class="vv"></div>
+	<script src="shouye.js"></script>
+
+</body>
+
+</html>

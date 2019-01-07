@@ -2,7 +2,7 @@
 * @Author: DELL
 * @Date:   2018-12-14 14:33:07
 * @Last Modified by:   dell
-* @Last Modified time: 2019-01-06 19:28:33
+* @Last Modified time: 2019-01-07 22:16:17
 */
 function animate(obj,json,callback){
 	clearInterval(obj.timer);
@@ -37,7 +37,7 @@ window.onload=function(){
 	var head=document.getElementsByClassName("cover")[0];
 	window.onscroll=function(){
 		var st=document.documentElement.scrollTop || document.body.scrollTop;
-		if(st>130){
+		if(st>180){
 			head.style.position="fixed"
 		}else{
 			head.style.position="static"
@@ -72,10 +72,10 @@ window.onload=function(){
 // 固定部分
 var li = document.getElementById("d1");
 li.onmouseover = function(){
-    startMove(-100);
+    startMove(20);
 }
 li.onmouseout = function(){
-    startMove(-20);
+    startMove(100);
 }
 var timer = null;
 function startMove(s){
@@ -195,13 +195,6 @@ function startMove4(s){
         }
     },10);
 } 
-var li5 = document.getElementById("d6");
-li5.onmouseover = function(){
-    animate(li5,{left:10});
-}
-li5.onmouseout = function(){
-    animate(li5,{left:100});
-}
  //lunbo
 function getStyle(obj, attr){
 	if(obj.currentStyle){
